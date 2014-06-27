@@ -1,3 +1,88 @@
-div{
-    background-color: yellowgreen;
+html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.head-wrap{
+    margin: 0 auto;
+    width:950px;
+   
+}
+header{
+    background-color:white;
+    padding:10px;
+    font-family:Algerian;
+    font-size:36px;
+}
+
+nav{
+background-color: black;
+    padding:10px;
+    font-family:Algerian;
+    font-size:14px;
+    border-radius:5px 5px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+input[type='text']{
+    border:none;
+    border-radius:3px 3px;
+    padding-left:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    height:80%;
+    width:240px;
+}
+
+input[type='submit']{
+    border:none;
+    border-radius:3px 3px;
+    background-color:white;
+    width:30px;
+    height:22px;
+
+    
+   
+}
+
+
+nav ul {
+   width:750px;
+}
+nav ul li a{
+    background-color: black;
+    padding:10px;
+    font-family:Algerian;
+    font-size:14px;
+    color:white;
+    
+    text-decoration:none;
+}
+.search{
+    display:inline-block;
+    float:right;
+}
+
+.navi{
+    display:inline-block;
+}
+
+header h1{
+
+    font-family: Algerian;
+    font-size:36px;
+    display:table-cell;
+    vertical-align:middle;
+    text-shadow: 2px 2px 7px #000000;
+
+    
+    
+}
+figure{
+    display:table-cell;
+    vertical-align:middle;
 }
