@@ -21,6 +21,11 @@ background-color: black;
     font-family:Algerian;
     font-size:14px;
     border-radius:5px 5px;
+    height:30px;
+}
+
+nav ul {
+   width:750px;
 }
 
 nav ul li{
@@ -28,13 +33,32 @@ nav ul li{
     list-style-type: none;
 }
 
+nav ul li a{
+    background-color: black;
+    padding:10px;
+    font-family:Algerian;
+    font-size:16px;
+    color:white;
+    
+    text-decoration:none;
+}
+
+nav ul li>a:hover{
+   padding-top:15px;
+    color:black;
+   background-color:white;
+   border-radius:5px 5px;
+
+
+}
+
 input[type='text']{
     border:none;
     border-radius:3px 3px;
     padding-left:5px;
-    padding-top:3px;
-    padding-bottom:3px;
-    height:80%;
+    padding-top:5px;
+    padding-bottom:5px;
+    height:18px;
     width:240px;
 }
 
@@ -43,25 +67,12 @@ input[type='submit']{
     border-radius:3px 3px;
     background-color:white;
     width:30px;
-    height:22px;
+    height:28px;
 
     
    
 }
 
-
-nav ul {
-   width:750px;
-}
-nav ul li a{
-    background-color: black;
-    padding:10px;
-    font-family:Algerian;
-    font-size:14px;
-    color:white;
-    
-    text-decoration:none;
-}
 .search{
     display:inline-block;
     float:right;
