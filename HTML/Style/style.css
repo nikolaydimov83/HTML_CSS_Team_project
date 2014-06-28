@@ -2,7 +2,9 @@ html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea
   margin: 0;
   padding: 0;
 }
-
+html{
+    background: url("../pics/Sun.jpeg");
+}
 
 .head-wrap{
     margin: 0 auto;
@@ -14,6 +16,7 @@ header{
     padding:10px;
     font-family:Algerian;
     font-size:36px;
+    background: transparent;
 }
 
 header nav{
@@ -105,7 +108,8 @@ figure{
 }
 
 main{
-background-color:white;    
+background-color:transparent;
+    height: 310px;
 }
 
 aside{
