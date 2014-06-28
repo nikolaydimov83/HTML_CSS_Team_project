@@ -3,7 +3,7 @@ html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea
   padding: 0;
 }
 html{
-    background: url("../pics/Sun.jpeg");
+    background: url("../pics/images1.jpg");
 }
 
 .head-wrap{
@@ -116,7 +116,7 @@ figure{
 
 main{
 background-color:transparent;
-height:450px;
+height:550px;
 }
 
 aside{
@@ -153,23 +153,26 @@ aside{
 text-align:center;
 }
 section{
-    background-color:#E1DCD8;
+    background-color:rgba(225,215,216,0.5);
     margin-left:25%;
     margin-right:7%;
-    margin-bottom:10px;
+    margin-bottom:15px;
     border-radius:5px 5px;
     width:48%;
     padding-top:10px;
     padding-bottom:10px;
+    height:100%;
 }
 article{
-    background-color:grey;
+    background-color:rgba(167,165,163,0.5);
     opacity:0.6;
     width:85%;
     margin-left:15px;
     border-radius:5px 5px;
     margin-top:10px;
     margin-bottom:10px;
+    margin-right:auto;
+    margin-left:auto;
     padding:5px 5px 5px 5px;
 }
 
