@@ -1,0 +1,599 @@
+@media screen and (min-width: 600px) {
+ 
+
+
+
+html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea, fieldset {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-size:62.5%;
+}
+html{
+    background: url("../pics/images1.jpg");
+}
+
+.head-wrap{
+    margin: 0 auto;
+    width:95%;
+    text-align:center;
+   
+}
+
+header{
+    background-color:white;
+    padding:0.5%;
+    font-family:Algerian;
+    font-size:3.6em;
+    border-radius:5px 5px;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:1%;
+    margin-right:1%;
+    text-align:center;
+    overflow:hidden;
+}
+
+header nav{
+background-color: black;
+    padding:0.8%;
+    font-family:Algerian;
+    font-size:0.4em;
+    border-radius:5px 5px;
+    height:80%;
+    margin:0 auto;
+}
+
+header nav ul {
+   width:75%;
+   height:85%
+}
+
+header nav ul li{
+    display:inline-block;
+    list-style-type: none;
+   background:transparent;
+}
+
+header nav ul li a{
+    background-color: transparent;
+    padding:5px;
+    font-family:Algerian;
+    font-size:1em;
+    color:white;   
+    text-decoration:none;
+    text-align:center;
+    margin: 0 auto;
+    padding:10px;
+}
+
+header nav ul li>a:hover{
+  margin:0;
+  padding:5px;
+    color:black;
+   background-color:white;
+   border-radius:5px 5px;
+  background-size: contain;
+  font-size:1em;
+  
+
+
+}
+
+input[type='text']{
+    border:none;
+    border-radius:3px 3px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    height:80%;
+    width:75%;
+}
+
+input[type='submit']{
+    border:none;
+    border-radius:3px 3px;
+    background-color:white;
+    width:30px;
+    height:28px;
+  
+}
+
+.search{
+    display:inline-block;
+    float:right;
+    width:20%;
+}
+
+.navi{
+    display:inline-block;
+    font-family: Algerian;
+    font-size:1.1em;
+    color:white;
+    width:95%;
+}
+.naviheader{
+    margin:0 auto;
+    text-align:center;
+}
+
+header h1{
+
+    font-family: Algerian;
+    font-size:1em;
+    display:table-cell;
+    vertical-align:middle;
+    text-shadow: 2px 2px 7px #000000;
+    text-align:center;
+    
+    
+}
+figure{
+    display:table-cell;
+    vertical-align:middle;
+}
+img{
+    max-width:100%;
+}
+main{
+background-color:transparent;
+
+}
+
+aside{
+    float:left;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:1em;
+    background-color:black;
+    border-radius:5px 5px;
+    margin-left:1%;
+    padding-bottom:5%;
+    padding-top:1%;
+    padding-left:1%;
+    height:100%;
+    margin-bottom:1.5%;
+    width:15%;
+    min-width:100px;
+   
+}
+aside nav{
+    background-color: black;
+    font-family:Algerian;
+    font-size:1.4em;
+    border-radius:5px 5px;
+   
+   
+}
+
+aside nav ul {
+  
+}
+
+aside nav ul li{
+    display:block;
+    list-style-type: none;
+    margin: 4% auto;
+    text-align:center;
+    
+    
+
+}
+
+aside nav ul li a{
+    background-color: black;
+    font-family:Algerian;
+    font-size:1em;
+    color:white;    
+    text-decoration:none;
+    display:block;
+    width:95%;
+}
+
+aside nav ul li>a:hover{ 
+   color:black;
+   background-color:white;
+   border-radius:2px 2px;
+   padding:4px 4px 4px 4px;
+
+
+}
+
+.right{
+    float:right;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:1.1em;
+    background-color:black;
+    border-radius:5px 5px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    padding-bottom:1%;
+    padding-top:0.5%;
+    padding-left:0.5%;
+    height:100%;
+    margin-bottom:15px;
+    padding-right:0.5%;
+     width:15%;
+    text-align:center;
+    min-width:100px;
+}
+section{
+    background-color:rgba(225,215,216,0.5);
+   float:left;
+    margin-right:1%;
+    margin-left:1%;
+    margin-bottom:15px;
+    border-radius:5px 5px;
+    width:59%;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:100%;
+}
+article{
+    background-color:rgba(167,165,163,0.5);
+    width:90%;
+   
+    border-radius:5px 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:5px 5px 5px 5px;
+    font-size:1.2em;
+}
+
+
+
+
+
+footer{
+background-color:black;
+font-family: Algerian;
+font-size:36px;
+text-align:center;
+color:white;
+border-radius:5px 5px;
+margin-right:10px;
+margin-left:10px;
+clear:both;
+
+}
+
+.advertisement{
+       display:block;
+    text-align:center;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+figcaption{
+    text-align:center;
+}
+
+h2.worldcup{
+    font-size: 0.6em;
+    text-shadow: 2px 2px 7px #000000;
+    text-align:right;
+}
+article.worldcup{
+    text-align:center;
+    clear:both;
+}
+article.worldcup p{
+    text-align:left;
+    
+}
+video{
+    width:80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  /* Apply styles for small devices (phones) */
+
+
+
+html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea, fieldset {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-size:40.5%;
+}
+html{
+    background: none;
+}
+
+.head-wrap{
+    margin: 0 auto;
+    width:95%;
+    text-align:center;
+   
+}
+
+header{
+    background-color:white;
+    padding:0.5%;
+    font-family:Algerian;
+    font-size:3.6em;
+    border-radius:5px 5px;
+    text-align:center;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+header nav{
+background-color: black;
+    padding:0.8%;
+    font-family:Algerian;
+    font-size:0.4em;
+    border-radius:5px 5px;
+    height:80%;
+    margin:0 auto;
+    text-align:center;
+   
+}
+
+header nav ul {
+   width:95%;
+   height:85%;
+   text-align:center;
+   margin:0 auto;
+}
+
+header nav ul li{
+    display:block;
+    list-style-type: none;
+   background:transparent;
+   text-align:center;
+   margin:0 auto;
+}
+
+header nav ul li a{
+    background-color: transparent;
+    padding:5px;
+    font-family:Algerian;
+    font-size:1em;
+    color:white;   
+    text-decoration:none;
+    text-align:center;
+    margin:0 auto;
+}
+
+header nav ul li>a:hover{
+  padding:0;
+  margin:0;
+  padding-left:5px;
+  padding-right:5px;
+    color:black;
+   background-color:white;
+   border-radius:5px 5px;
+  background-size: contain;
+  font-size:1em;
+  text-align:center;
+   margin:0 auto;
+  
+
+
+}
+
+input[type='text']{
+    border:none;
+    border-radius:3px 3px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    height:80%;
+    width:75%;
+}
+
+input[type='submit']{
+    border:none;
+    border-radius:3px 3px;
+    background-color:white;
+    width:30px;
+    height:28px;
+  
+}
+
+.search{
+    display:inline-block;
+    float:right;
+    width:20%;
+}
+
+.navi{
+    display:inline-block;
+    font-family: Algerian;
+    font-size:1.1em;
+    color:white;
+    width:95%;
+    text-align:center;
+    margin:0 auto;
+}
+.naviheader{
+    margin:0 auto;
+    text-align:center;
+}
+
+header h1{
+
+    font-family: Algerian;
+    font-size:0.5em;
+    display:table-cell;
+    vertical-align:middle;
+    text-shadow: 2px 2px 7px #000000;
+    text-align:center;
+    margin: 0 auto;
+    
+    
+}
+figure{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+img{
+    max-width:100%;
+}
+main{
+background-color:transparent;
+display: table; width: 100%;
+
+
+}
+
+aside{
+    width:99%;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:1em;
+    background-color:black;
+    border-radius:5px 5px;
+
+    height:100%;
+
+    min-width:100px;
+    text-align:center;
+    margin: 0 auto;
+    border:1px solid white;
+    margin-bottom:3px;
+    display: table-footer-group;
+}
+aside nav{
+    background-color: black;
+    font-family:Algerian;
+    font-size:1.4em;
+    border-radius:5px 5px;
+    text-align:center;
+    margin: 0 auto;
+   
+   
+}
+
+aside nav ul {
+    text-align:center;
+    margin: 0 auto;
+  
+}
+
+aside nav ul li{
+    display:block;
+    list-style-type: none;
+    margin-top:15px;
+    text-align:center;
+    margin: 0 auto;
+
+}
+
+aside nav ul li a{
+    background-color: black;
+    font-family:Algerian;
+    font-size:1em;
+    color:white;    
+    text-decoration:none;
+    display:block;
+    width:95%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+aside nav ul li>a:hover{ 
+   color:black;
+   background-color:white;
+   border-radius:2px 2px;
+   padding:1px 1px 1px 1px;
+   text-align:center;
+   margin: 0 auto;
+
+
+}
+
+.right{
+    display:none;
+    float:right;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:0.01em;
+    background-color:black;
+    border-radius:5px 5px;
+    margin-left:0%;
+    margin-right:0%;
+    padding-bottom:0%;
+    padding-top:0%;
+    padding-left:0%;
+    height:1%;
+    margin-bottom:0;
+    padding-right:0.5%;
+     height:1%;
+    text-align:center;
+    
+}
+section{
+    background-color:rgba(225,215,216,0.5);
+   display: table-header-group;
+    margin-right:1%;
+    margin-left:1%;
+    margin-bottom:15px;
+    border-radius:5px 5px;
+    width:95%;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:100%;
+}
+article{
+    background-color:rgba(167,165,163,0.5);
+    width:90%;
+   
+    border-radius:5px 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:5px 5px 5px 5px;
+    font-size:1.4em;
+}
+
+
+
+
+
+footer{
+    display:none;
+background-color:black;
+font-family: Algerian;
+font-size:1.7em;
+text-align:center;
+color:white;
+border-radius:5px 5px;
+margin-right:10px;
+margin-left:10px;
+clear:both;
+
+}
+
+.advertisement{
+       display:block;
+    text-align:center;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+figcaption{
+    text-align:center;
+}
+h2.worldcup{
+    font-size: 0.6em;
+    text-shadow: 2px 2px 7px #000000;
+    text-align:right;
+}
+article.worldcup{
+    text-align:center;
+    clear:both;
+}
+article.worldcup p{
+    text-align:left;
+    
+}
+video{
+    width:80%;
+}
+}
