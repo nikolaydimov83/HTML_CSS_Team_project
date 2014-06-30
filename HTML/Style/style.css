@@ -274,7 +274,7 @@ h2.worldcup{
     text-align:right;
 }
 article.worldcup{
-    text-align:center;
+    text-align:left;
     clear:both;
 }
 article.worldcup p{
@@ -586,7 +586,7 @@ article.worldcup h2{
     text-align:center;
 }
 article.worldcup{
-    text-align:center;
+    text-align:left;
     clear:both;
 }
 article.worldcup p{
@@ -903,7 +903,7 @@ article.worldcup h2{
     text-align:center;
 }
 article.worldcup{
-    text-align:center;
+    text-align:left;
     clear:both;
 }
 article.worldcup p{
