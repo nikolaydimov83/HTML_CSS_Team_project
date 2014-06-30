@@ -231,7 +231,7 @@ section{
 article{
     background-color:rgba(167,165,163,0.5);
     width:90%;
-   
+    text-align:left;
     border-radius:5px 5px;
     margin-top:5px;
     margin-bottom:5px;
@@ -546,6 +546,8 @@ article{
     margin-left:auto;
     padding:5px 5px 5px 5px;
     font-size:1.4em;
+    text-align:left;
+ 
 }
 
 
@@ -855,7 +857,7 @@ section{
 article{
     background-color:rgba(167,165,163,0.5);
     width:90%;
-   
+   text-align:left;
     border-radius:5px 5px;
     margin-top:5px;
     margin-bottom:5px;
