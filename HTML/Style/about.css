@@ -1,0 +1,23 @@
+.about img{
+    width: 130px;
+    height: 130px;
+}
+.about figure{
+    font-family: Algerian;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    width: 150px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 3%;
+}
+.about article{
+    width: 90%;
+}
+.us{
+    margin: 0 auto;
+    width:95%;
+}

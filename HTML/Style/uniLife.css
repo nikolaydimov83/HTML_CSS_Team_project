@@ -1,0 +1,50 @@
+table{
+    margin-left: 40% ;
+}
+.table1{
+    background-color: #000000;
+    background-image: url("../pics/advertisement.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+table, th, td{
+    font-family: Algerian;
+
+    font-size: 16pt;
+}
+.table1 th, td{
+    border: 1px solid black;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+}
+.table2 td{
+    padding: 0;
+    border: 0;
+    height: 48px;
+    width: 100px;
+}
+.table2 button{
+    width: 100%;
+    height: 100%;
+    font-size: 10pt;
+}
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 16pt;
+    color: white;
+    background-color: transparent;
+    font-family: Algerian;
+    border: 2px solid white;
+}
+#head button{
+    text-transform: uppercase;
+    font-size: 24pt;
+    font-weight: bold;
+}
+.table2 button{
+    width: 100%;
+    height: 100%;
+    font-size: 10pt;
+}
