@@ -1,0 +1,23 @@
+.navi-links{
+    display:inline-block;
+    font-family: Algerian;
+    width:50%;
+    margin-left: 25%;
+}
+.links-h{
+    font-size: 2.2em;
+    text-align: center;
+}
+.links-l{
+    font-size:1.45em;
+    text-align: center;
+}
+.links-l ul{
+    list-style: none;
+}
+.links-l a:link{
+    color: #000000;
+}
+.links-l a:visited{
+    color: #F7E031;
+}

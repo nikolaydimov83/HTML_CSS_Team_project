@@ -1,5 +1,6 @@
 @media screen and (min-width: 600px) {
  
+
 html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea, fieldset {
   margin: 0;
   padding: 0;
@@ -110,6 +111,7 @@ input[type='submit']{
     color:white;
     width:95%;
 }
+
 .naviheader{
     margin:0 auto;
     text-align:center;
