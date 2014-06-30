@@ -277,7 +277,8 @@ figcaption{
 h2.worldcup{
     font-size: 0.6em;
     text-shadow: 2px 2px 7px #000000;
-    text-align:right;
+    text-align:center;
+margin:0.1%;
 }
 article.worldcup{
     text-align:left;
@@ -600,7 +601,8 @@ figcaption{
 }
 h2.worldcup{
 font-size: 0.6em;
-text-align:right;
+text-align:center;
+margin:0.1%;
 }
 
 article.worldcup h2{
@@ -645,6 +647,7 @@ html{
     text-align:center;
     margin-top:0.1%;
     margin-bottom:0.1%;
+
    
 }
 
@@ -758,7 +761,7 @@ input[type='submit']{
 header h1{
 
     font-family: Algerian;
-    font-size:0.8em;
+    font-size:3.6em;
     display:inline-block;
     vertical-align:middle;
     text-align:center;
@@ -774,7 +777,6 @@ figure{
     text-align:center;
     margin-left:0.1%;
     margin-right:0.1%;
-    max-width:25px;
     margin-top:0.1%;
     margin-bottom:0.1%;
 }
@@ -927,7 +929,8 @@ figcaption{
 }
 h2.worldcup{
 font-size: 1.1em;
-text-align:right;
+text-align:center;
+margin:0.1%;
 }
 
 article.worldcup h2{
@@ -949,6 +952,7 @@ video{
 }
 .skull{
     margin: 0 auto;
-    text-align:center;   
+    text-align:center;
+    display:inline-block;   
 }
 }
