@@ -113,6 +113,8 @@ input[type='submit']{
 .naviheader{
     margin:0 auto;
     text-align:center;
+    font-size:1.1em;
+   
 }
 
 header h1{
@@ -620,7 +622,7 @@ html{
 header{
     background-color:white;
     padding:0.5%;
-    font-family:Algerian;
+    font-family:'Times New Roman',Arial,Verdana;
     font-size:1.9em;
     border-radius:5px 5px;
     text-align:center;
@@ -631,7 +633,7 @@ header{
 header nav{
 background-color: black;
     padding:0.8%;
-    font-family:Algerian;
+    font-family:'Times New Roman',Arial,Verdana;
     font-size:0.8em;
     border-radius:5px 5px;
     height:80%;
@@ -658,8 +660,8 @@ header nav ul li{
 header nav ul li a{
     background-color: transparent;
     padding:5px;
-    font-family:Algerian;
-    font-size:1em;
+    font-family:'Times New Roman',Arial,Verdana;
+    font-size:2em;
     color:white;   
     text-decoration:none;
     text-align:center;
@@ -675,7 +677,7 @@ header nav ul li>a:hover{
    background-color:white;
    border-radius:5px 5px;
   background-size: contain;
-  font-size:1em;
+  font-size:2em;
   text-align:center;
    margin:0 auto;
   
@@ -710,8 +712,8 @@ input[type='submit']{
 
 .navi{
     display:inline-block;
-    font-family: Algerian;
-    font-size:1.1em;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:2.1em;
     color:white;
     width:95%;
     text-align:center;
@@ -720,12 +722,14 @@ input[type='submit']{
 .naviheader{
     margin:0 auto;
     text-align:center;
+    font-size:2.0em;
+    display:none;
 }
 
 header h1{
 
-    font-family: Algerian;
-    font-size:0.8em;
+    font-family: 'Times New Roman',Arial,Verdana;
+    font-size:1.4em;
     display:table-cell;
     vertical-align:middle;
     text-align:center;
@@ -743,13 +747,15 @@ img{
 }
 main{
 background-color:transparent;
-display: table; width: 100%;
+width: 100%;
+text-align:center;
+margin: 0 auto;
 
 
 }
 
 aside{
-    width:99%;
+    width:97%;
     font-family: 'Times New Roman',Arial,Verdana;
     font-size:1em;
     background-color:black;
@@ -759,14 +765,17 @@ aside{
 
     min-width:100px;
     text-align:center;
+    
     margin: 0 auto;
+    
+    margin-left:1%;
     border:1px solid white;
     margin-bottom:3px;
-    display: table-footer-group;
+ 
 }
 aside nav{
     background-color: black;
-    font-family:Algerian;
+    font-family:'Times New Roman',Arial,Verdana;
     font-size:1.4em;
     border-radius:5px 5px;
     text-align:center;
@@ -792,8 +801,8 @@ aside nav ul li{
 
 aside nav ul li a{
     background-color: black;
-    font-family:Algerian;
-    font-size:1em;
+    font-family:'Times New Roman',Arial,Verdana;
+    font-size:2em;
     color:white;    
     text-decoration:none;
     display:block;
@@ -834,7 +843,6 @@ aside nav ul li>a:hover{
 }
 section{
     background-color:rgba(225,215,216,0.5);
-   display: table-header-group;
     margin-right:1%;
     margin-left:1%;
     margin-bottom:15px;
@@ -854,7 +862,7 @@ article{
     margin-right:auto;
     margin-left:auto;
     padding:5px 5px 5px 5px;
-    font-size:1.4em;
+    font-size:2.6em;
 }
 
 
@@ -864,7 +872,7 @@ article{
 footer{
     display:none;
 background-color:black;
-font-family: Algerian;
+font-family: 'Times New Roman',Arial,Verdana;
 font-size:1.7em;
 text-align:center;
 color:white;
@@ -886,12 +894,12 @@ figcaption{
     text-align:center;
 }
 h2.worldcup{
-font-size: 0.6em;
+font-size: 1.1em;
 text-align:right;
 }
 
 article.worldcup h2{
-    font-size: 1.1em;
+    font-size: 2.8em;
     text-align:center;
 }
 article.worldcup{
@@ -900,10 +908,11 @@ article.worldcup{
 }
 article.worldcup p{
     text-align:left;
+    width:90%;
+    font-size:2.6em;
     
 }
 video{
     width:80%;
 }
 }
-
