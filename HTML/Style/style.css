@@ -295,6 +295,9 @@ video{
     margin-top:0.1%;
     margin-bottom:0.1%;   
 }
+.valid{
+    float: right;
+}
 }
 
 
