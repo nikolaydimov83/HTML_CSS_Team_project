@@ -1,23 +1,110 @@
-.navi-links{
-    display:inline-block;
-    font-family: Algerian;
-    width:50%;
-    margin-left: 25%;
+@media screen and (min-width: 600px) {
+    .navi-links {
+        display: inline-block;
+        font-family: Algerian;
+        width: 50%;
+        margin-left:10%;
+    }
+
+    .links-h {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .links-l {
+        font-size: 1.45em;
+        text-align: center;
+    }
+
+        .links-l ul {
+            list-style: none;
+        }
+
+        .links-l a:link {
+            color: #000000;
+        }
+
+        .links-l a:visited {
+            color: #F7E031;
+        }
 }
-.links-h{
-    font-size: 2.2em;
-    text-align: center;
+
+@media screen and (max-width: 600px) {
+    .navi-links {
+        display: inline-block;
+        font-family: Algerian;
+        width:100%;
+    }
+
+    .links-h {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .links-l {
+        font-size: 1.45em;
+        text-align: center;
+    }
+
+        .links-l ul {
+            list-style: none;
+        }
+
+        .links-l a:link {
+            color: #000000;
+        }
+
+        .links-l a:visited {
+            color: #F7E031;
+        }
 }
-.links-l{
-    font-size:1.45em;
-    text-align: center;
+
+@media screen and (max-width: 600px) {
+    aside.lefty{
+        display:none;
+    }
+    .links-l a:visited {
+            color: blue;
+        }
 }
-.links-l ul{
-    list-style: none;
-}
-.links-l a:link{
-    color: #000000;
-}
-.links-l a:visited{
-    color: #F7E031;
+
+@media screen and (max-device-width: 600px) {
+
+    .navi-links {
+ 
+        margin-left:1%;
+    }
+    aside.lefty{
+        display:none;
+    }
+    .links-l a:visited {
+            color: blue;
+        }
+            .navi-links {
+        display: inline-block;
+        font-family: Algerian;
+        width:100%;
+    }
+
+    .links-h {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .links-l {
+        font-size: 1.45em;
+        text-align: center;
+    }
+
+        .links-l ul {
+            list-style: none;
+        }
+
+        .links-l a:link {
+            color: #000000;
+        }
+
+        .links-l a:visited {
+            color: #F7E031;
+        }
 }
