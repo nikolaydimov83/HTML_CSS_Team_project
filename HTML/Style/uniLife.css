@@ -1,11 +1,10 @@
-table{
-    margin-left: 40% ;
-}
 .table1{
     background-color: #000000;
-    background-image: url("../pics/advertisement.jpg");
+    /*background-image: url("");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 97% 97%;*/
+    margin-left: 40% ;
 }
 table, th, td{
     font-family: Algerian;
@@ -36,9 +35,15 @@ button{
     color: white;
     background-color: transparent;
     font-family: Algerian;
-    border: 2px solid white;
+    border: 5px dashed white;
+}
+button:hover{
+    background-color: #DF0000;
+    color: #000000;
+    border: 5px dashed #000000;
 }
 #head button{
+
     text-transform: uppercase;
     font-size: 24pt;
     font-weight: bold;
