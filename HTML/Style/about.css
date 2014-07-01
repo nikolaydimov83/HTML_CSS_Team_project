@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 600px) {
     .about figure img {
         max-width: 100%;
@@ -24,7 +26,7 @@
     }
 
         .about figure:hover {
-            font-size: 20px;
+            font-size: 6em;
         }
 
     .about img:hover {
@@ -70,6 +72,7 @@
 
 }
 
+
 @media screen and (max-device-width: 600px) {
     div.us a {text-decoration:none;
               color:black;
@@ -90,4 +93,3 @@
 
 
 }
-
