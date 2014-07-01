@@ -57,21 +57,18 @@
               
              
     }
-    div.us{
-        margin-top:2.5%;
-        font-size:1.3em;
-
+    div.us {
+        margin-top: 2.5%;
+        font-size: 1.3em;
+        width: 100%;
     }
-        div.us img {
+            div.us img {
 
             max-width:200%;
         }
-section.about header{
-    font-size:1.2em;
-    text-align:left;
-    font-family:Algerian, Arial,Verdana;
+
+
 }
-    }
 
 @media screen and (max-device-width: 600px) {
     div.us a {text-decoration:none;
@@ -81,20 +78,16 @@ section.about header{
               
              
     }
-    div.us{
-        margin-top:2.5%;
-        font-size:1.3em;
-
+    div.us {
+        margin-top: 2.5%;
+        font-size: 1.3em;
+        width: 100%;
     }
-        div.us img {
+            div.us img {
 
             max-width:200%;
         }
-section.about header{
-    font-size:1.2em;
-    text-align:left;
-    font-family:Algerian, Arial,Verdana;
-}
-    }
 
+
+}
 
