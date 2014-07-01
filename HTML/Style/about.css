@@ -1,34 +1,100 @@
-.about img{
-    width: 130px;
-    height: 130px;
-}
-.about figure{
-    font-family: Algerian;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    vertical-align: top;
-    width: 200px;
-    float: left;
-    padding: 0;
-    margin: 0;
-    margin-top: 3%;
-}
-.about figure:hover{
-    font-size: 30px;
-}
-.about img:hover{
-    width: 200px;
-    height: 200px;
+@media screen and (min-width: 600px) {
+    .about figure img {
+        max-width: 100%;
+
+    }
+
+    .about figure {
+        font-family: Algerian;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        vertical-align: top;
+        width: 20%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        margin-top: 3%;
+        margin-left:2.5%;
+        margin-right:2.5%;
+        display:inline-block;
+    }
+    figure.about figcaption{
+        text-align:center;
+    }
+
+        .about figure:hover {
+            font-size: 20px;
+        }
+
+    .about img:hover {
+        max-width: 120%;
+        
+    }
+
+    .about article {
+        width: 90%;
+        font-size:0.6em;
+    }
+
+    .us {
+        margin: 0 auto;
+        width: 95%;
+        text-align:center;
+    }
+
+    .about {
+        padding-bottom: 8%;
+        font-size:1em;
+    }
 }
 
-.about article{
-    width: 90%;
+@media screen and (max-width: 600px) {
+    div.us a {text-decoration:none;
+              color:black;
+             margin-right:10%;
+            
+              
+             
+    }
+    div.us{
+        margin-top:2.5%;
+        font-size:1.3em;
+
+    }
+        div.us img {
+
+            max-width:200%;
+        }
+section.about header{
+    font-size:1.2em;
+    text-align:left;
+    font-family:Algerian, Arial,Verdana;
 }
-.us{
-    margin: 0 auto;
-    width:95%;
+    }
+
+@media screen and (max-device-width: 600px) {
+    div.us a {text-decoration:none;
+              color:black;
+             margin-right:10%;
+            
+              
+             
+    }
+    div.us{
+        margin-top:2.5%;
+        font-size:1.3em;
+
+    }
+        div.us img {
+
+            max-width:200%;
+        }
+section.about header{
+    font-size:1.2em;
+    text-align:left;
+    font-family:Algerian, Arial,Verdana;
 }
-.about{
-    padding-bottom: 100px;
-}
+    }
+
+
