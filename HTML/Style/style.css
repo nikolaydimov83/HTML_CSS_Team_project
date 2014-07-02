@@ -5,6 +5,12 @@ html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea
   margin: 0;
   padding: 0;
 }
+article h1{
+    font-size: 3em;
+}
+article p{
+    font-size: 2em;
+}
 body{
     font-size:62.5%;
 }
@@ -297,6 +303,45 @@ video{
 }
 .valid{
     float: right;
+}
+.uncleNak img{
+
+    width: 350px;
+    height: 470px;
+}
+.uncleNak{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-family: Algerian;
+}
+.bobble{
+    position: relative;
+}
+.bobble img{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    bottom: 306px;
+    right: 166px;
+
+}
+.bobble img:hover{
+    width: 350px;
+    height: 250px
+}
+.darth img{
+    width: 450px;
+    height: 470px;
+}
+.darth{
+    text-align: center;
+    color: #000000;
+    font-family: Algerian;
+    font-size: 20px;
+}
+.darth h1{
+    font-size: 40px;
 }
 }
 
