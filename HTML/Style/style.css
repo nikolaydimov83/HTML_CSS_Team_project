@@ -321,9 +321,9 @@ video{
 .bobble img{
     width: 250px;
     height: 150px;
-    position: absolute;
-    bottom: 306px;
-    right: 166px;
+    position: relative;
+    bottom: 482px;
+    left: 203px;
 
 }
 .bobble img:hover{
