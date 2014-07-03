@@ -1,98 +1,100 @@
 @media screen and (min-width: 600px) {
     div.us a figure img {
-    max-width: 80%;
+        max-width: 80%;
 
+    }
 
-}
     .about {
         padding-bottom: 0%;
-        font-size:2.5em;
-        font-family:Algerian;
-        margin-bottom:0;
-        color:white;
-        text-align:center;
+        font-size: 2.5em;
+        font-family: Algerian;
+        margin-bottom: 0;
+        color: white;
+        text-align: center;
     }
-    .us figcaption{
+
+    .us figcaption {
         color: white;
     }
 
     .us {
         margin: 0 auto;
         width: 95%;
-        text-align:center;
+        text-align: center;
         margin-bottom: 20%;
 
     }
 
     div.us a {
-    text-decoration:none;
-    color:black;
-    font-family:Algerian;
-    font-size:1.7em;
+        text-decoration: none;
+        color: white;
+        font-family: Algerian;
+        font-size: 1.7em;
 
+    }
 
+    div.us a figure {
+        width: 10%;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        transition: 2s;
+        transition-timing-function: ease;
 
-}
+    }
 
-    div.us a figure  {
-    width: 10%;
-    margin-top:1%;
-    margin-left:1%;
-    margin-right:1%;
-    transition: 2s;
-    transition-timing-function: ease;
-
-}
-
-    div.us a figure:hover  {
-        height: 500px;
+    div.us a figure:hover {
+        color: #000000;
         background-color: white;
         vertical-align: top;
-}
-    footer{
+    }
+    .us img{
+        padding-top: 10%;
+    }
+
+    footer {
         vertical-align: bottom;
     }
 }
 
 @media screen and (max-width: 600px) {
-    div.us a {text-decoration:none;
-              color:black;
-             margin-right:10%;
-            
-              
-             
+    div.us a {
+        text-decoration: none;
+        color: black;
+        margin-right: 10%;
+
     }
+
     div.us {
         margin-top: 2.5%;
         font-size: 1.3em;
         width: 100%;
     }
-            div.us img {
 
-            max-width:200%;
-        }
+    div.us img {
 
+        max-width: 200%;
+    }
 
 }
 
-
 @media screen and (max-device-width: 600px) {
-    div.us a {text-decoration:none;
-              color:black;
-             margin-right:10%;
-            
-              
-             
+    div.us a {
+        text-decoration: none;
+        color: black;
+        margin-right: 10%;
+
     }
+
     div.us {
         margin-top: 2.5%;
         font-size: 1.3em;
         width: 100%;
     }
-            div.us img {
 
-            max-width:200%;
-        }
+    div.us img {
 
+        max-width: 200%;
+    }
 
 }
